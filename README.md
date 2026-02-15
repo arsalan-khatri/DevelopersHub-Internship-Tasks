@@ -1,4 +1,4 @@
-# AI/ML Engineering - Advanced Internship Tasks
+# AI/ML Engineering - Advanced Internship Tasks.
 
 This repository contains the advanced projects completed during my AI/ML Engineering internship at Developers Hub Corporation. These tasks cover various domains including Transformer models, ML Pipelines, and Large Language Model (LLM) applications.
 
