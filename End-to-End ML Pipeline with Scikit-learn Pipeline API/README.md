@@ -1,4 +1,4 @@
-# Task 2: End-to-End ML Pipeline with Scikit-learn Pipeline API
+# Task 2: End-to-End ML Pipeline with Scikit-learn Pipeline API.
 
 This project focuses on building a production-ready Machine Learning pipeline to predict customer churn. The goal is to create a reusable system that handles everything from raw data preprocessing to model prediction in a single workflow.
 
