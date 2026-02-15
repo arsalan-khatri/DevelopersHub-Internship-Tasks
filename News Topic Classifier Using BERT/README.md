@@ -1,4 +1,4 @@
-# Task 1: News Topic Classifier Using BERT
+# Task 1: News Topic Classifier Using BERT.
 
 This project focuses on building an AI model to automatically classify news headlines into four distinct categories using Natural Language Processing (NLP) and Deep Learning.
 
