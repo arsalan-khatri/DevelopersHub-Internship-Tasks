@@ -41,8 +41,35 @@ Build a reusable and production-ready machine learning pipeline for predicting c
 * Model export and reusability.
 
 ---
+# Task 3: Multimodal ML – Housing Price Prediction
 
-## Task 4: Context-Aware Chatbot Using LangChain or RAG
+### Objective
+Predict housing prices by merging visual features from house images with structured tabular data (sqft, beds, baths) to create a more accurate regression model.
+
+### Methodology
+* **Framework**: Developed using **TensorFlow/Keras** and **Scikit-Learn** for deep learning and data preprocessing.
+* **Image Processing**: Implemented a **Convolutional Neural Network (CNN)** to extract deep visual features from house photos.
+* **Feature Fusion**: Combined extracted image embeddings with scaled tabular features using a **Late Fusion** technique (concatenation).
+
+
+
+* **Regression Model**: Built a multimodal architecture with multiple Dense layers to predict continuous price values.
+* **Evaluation**: Performance was measured using **Mean Absolute Error (MAE)** and **Root Mean Squared Error (RMSE)**.
+* **Optimization**: Specifically optimized for **CPU-based training** on low-end hardware using efficient data sampling (5,000 samples) and image resizing.
+
+### Skills Gained
+* **Multimodal Machine Learning**: Integrating diverse data sources (visual + numerical) into a single model.
+* **Computer Vision**: Using CNNs for feature extraction from real-world real estate imagery.
+* **Feature Engineering**: Data normalization, scaling, and feature concatenation.
+* **Regression & Evaluation**: Tuning deep learning models for high-value price prediction.
+
+---
+
+### Final Results Summary
+* **MAE**: $265,925.03
+* **RMSE**: $363,520.58
+
+## Task 4: Context-Aware Chatbot Using LangChain or RAG Working
 
 ### Objective
 Build a conversational chatbot that can remember context and retrieve external information during conversations.
