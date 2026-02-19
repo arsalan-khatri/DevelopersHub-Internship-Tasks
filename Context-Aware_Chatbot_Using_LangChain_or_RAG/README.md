@@ -30,8 +30,10 @@ To build a conversational chatbot that can remember context and retrieve externa
 ## Installation & Setup
 
 **1. Clone the repository:**
-
+**Step 1**
 ```bash
 pip install gitdir
-
+```
+**Step 2**
+```bash
 gitdir clone https://github.com/arsalan-khatri/DevelopersHub-Internship-Tasks/tree/main/Context-Aware_Chatbot_Using_LangChain_or_RAG
