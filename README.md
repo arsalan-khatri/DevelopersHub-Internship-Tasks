@@ -69,7 +69,7 @@ Predict housing prices by merging visual features from house images with structu
 * **MAE**: $265,925.03
 * **RMSE**: $363,520.58
 
-## Task 4: Context-Aware Chatbot Using LangChain or RAG (Working Comming Soon)
+## Task 4: Context-Aware Chatbot Using LangChain or RAG
 
 ### Objective
 Build a conversational chatbot that can remember context and retrieve external information during conversations.
