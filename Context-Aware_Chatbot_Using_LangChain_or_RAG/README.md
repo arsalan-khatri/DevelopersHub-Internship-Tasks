@@ -27,13 +27,15 @@ To build a conversational chatbot that can remember context and retrieve externa
 3.  **Vectorization & Storage:** Chunks are converted into vector embeddings using a HuggingFace model and stored locally in a FAISS vector database.
 4.  **Retrieval & Generation:** When a user asks a question, the system searches FAISS for the top 3 most relevant chunks. These chunks are injected into the LLM prompt as context to generate an accurate, hallucination-free response.
 
-## Installation & Setup
+## 💻 Installation & Setup
 
-**1. Clone the repository:**
-**Step 1**
+**1. Download the project folder:**
+Since this project is a specific folder within a larger repository, we use `gitdir` to download it directly.
+
+**Step 1:** Install `gitdir`
 ```bash
 pip install gitdir
 ```
-**Step 2**
+**Step 2:** Clone `Git Directory`
 ```bash
-gitdir clone https://github.com/arsalan-khatri/DevelopersHub-Internship-Tasks/tree/main/Context-Aware_Chatbot_Using_LangChain_or_RAG
+gitdir https://github.com/arsalan-khatri/DevelopersHub-Internship-Tasks/tree/main/Context-Aware_Chatbot_Using_LangChain_or_RAG
